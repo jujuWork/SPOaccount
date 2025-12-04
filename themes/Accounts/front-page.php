@@ -1,3 +1,9 @@
+<?php
+/**
+ * Template Name: Front Page
+ */
+get_header();
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>

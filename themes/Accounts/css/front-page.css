@@ -1,3 +1,5 @@
-h1 {
-    color: red;
+body {
+    border: 1px solid red;
+    width: 1000px;
+    height: 100vh;
 }

@@ -9,7 +9,7 @@
 
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/header.css">
 
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/top-page.css">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/front-page.css">
 
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/footer.css">
     
@@ -18,8 +18,7 @@
 
 </head>
 <body <?php body_class(); ?>>
-
-        <h1>Accounts</h1>
-
-
-
+    <div class="main-container">
+        <div class="left-side-container">left</div>
+        <div class="right-side-container">right</div>
+    </div>

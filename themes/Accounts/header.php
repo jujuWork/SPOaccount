@@ -12,5 +12,31 @@
 <body <?php body_class(); ?>>
 
 <header>
-    header
+    <nav>
+        <ul>
+            <li>
+                <a href="#home">
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/nav/sponago_logo.png" alt="logo">
+                </a>
+            </li>
+            <li>
+                <a href="#feature">Features</a>
+            </li>
+            <li>
+                <a href="#office">Offices</a>
+            </li>
+            <li>
+                <a href="#about">About</a>
+            </li>
+            <li>
+                <a href="#recruit">Recruitment</a>
+            </li>
+            <li>
+                <a href="#about">About</a>
+            </li>
+            <li>
+                <a href="#inquire">Inquiry</a>
+            </li>
+        </ul>
+    </nav>
 </header>

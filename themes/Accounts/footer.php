@@ -1,8 +1,10 @@
+<?php wp_footer(); // This is essential for loading theme and plugin scripts ?>
+
 <footer>
-    footer
+    FOOTER
 </footer>
 
-<?php wp_footer(); // This is essential for loading theme and plugin scripts ?>
+
 
 </body>
 </html>

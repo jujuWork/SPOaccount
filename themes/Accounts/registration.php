@@ -64,7 +64,7 @@ if (isset($_SESSION['error_message'])) {
                             <label for="checkbox">I agree to the <a href="terms&policy">terms & policy</a></label>
                         </div>
 
-                        <button>Signup</button>
+                        <button>Submit</button>
                     </fieldset>
                 </form>
         </div>

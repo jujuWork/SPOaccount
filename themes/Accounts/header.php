@@ -12,13 +12,16 @@
 <body <?php body_class(); ?>>
 
 <header>
+    <div class="logo-container">
+        <h2>Sponago</h2>
+    </div>
     <nav>
         <ul>
-            <li>
+            <!-- <li>
                 <a href="#home">
-                    <img src="<?php echo get_template_directory_uri(); ?>/images/nav/sponago_logo.png" alt="logo">
+                    
                 </a>
-            </li>
+            </li> -->
             <li>
                 <a href="#feature">Features</a>
             </li>

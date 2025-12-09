@@ -1,11 +1,41 @@
 header {
-    display: flex;
     position: relative;
     padding: 0 10px;
 
+    .logo-container {
+        width:  100%;
+
+        h2 {
+            font-size: 8em;
+            text-align: center;
+            font-family: 'Rock_Salt';
+            background: linear-gradient(
+                135deg,
+                #FFFFFF 0%,   /* Start with White */
+                #1C0B40 25%,   /* Transition to Deep Navy/Indigo */
+                #4C1456 50%,   /* Original Mid-point color */
+                #B30E4D 75%,   /* Transition from Vibrant Magenta/Crimson */
+                #FFFFFF 100%   /* End with White */
+                );
+            background-size: 400% 400%;
+            background-clip: text;
+            color: transparent;
+            animation: animate 10s linear infinite;
+        }
+    }
+}
+
+@keyframes animate {
+    0% {
+        background-position: 0% 50%;
+    }
+    100% {
+        background-position: 100% 50%;
+    }
+
     nav {
         width: 100%;
-        position: fixed;
+        /* position: fixed; */
 
 
         ul {
@@ -14,7 +44,7 @@ header {
             cursor: pointer;
         }
 
-        li:first-child {
+        /* li:first-child {
             margin-right: auto;
             position: relative;
 
@@ -23,9 +53,9 @@ header {
                 height: 100%;
                 padding: 5px 10px;
             }
-        }
+        } */
 
-        li:last-child {
+        /* li:last-child {
             border: 1px solid red;
             width: 18em;
             background: linear-gradient(to right, #c91b2d, #270564);
@@ -44,6 +74,6 @@ header {
 
         li:hover {
             background-color: linear-gradient(to right, #c91b2d, #270564);
-        }
+        } */
     }
 }

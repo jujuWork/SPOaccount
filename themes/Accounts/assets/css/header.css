@@ -5,11 +5,11 @@ header {
 
     nav {
         width: 100%;
-        /* position: fixed; */
+        position: fixed;
+
 
         ul {
             display: flex;
-            border: 1px solid orange;
             height: 100%;
             cursor: pointer;
         }
@@ -29,6 +29,8 @@ header {
             border: 1px solid red;
             width: 18em;
             background: linear-gradient(to right, #c91b2d, #270564);
+            border-radius: 5px;
+            border: none;
         }
 
         li {
@@ -37,6 +39,11 @@ header {
             height: 5em;
             align-content: center;
             text-align: center;
+            transition: 0.2s ease;
+        }
+
+        li:hover {
+            background-color: linear-gradient(to right, #c91b2d, #270564);
         }
     }
 }

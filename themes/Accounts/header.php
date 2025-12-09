@@ -13,31 +13,26 @@
 
 <header>
     <div class="logo-container">
-        <h2>Sponago</h2>
+        <a href="#home"><h2>Sponago</h2></a>
     </div>
     <nav>
         <ul>
-            <!-- <li>
-                <a href="#home">
-                    
-                </a>
-            </li> -->
-            <li>
+            <li class="nav-item">
                 <a href="#feature">Features</a>
             </li>
-            <li>
+            <li class="nav-item">
                 <a href="#office">Offices</a>
             </li>
-            <li>
+            <li class="nav-item">
                 <a href="#about">About</a>
             </li>
-            <li>
+            <li class="nav-item">
                 <a href="#recruit">Recruitment</a>
             </li>
-            <li>
+            <li class="nav-item">
                 <a href="#about">About</a>
             </li>
-            <li>
+            <li class="nav-item nav-last-item">
                 <a href="#inquire">Inquiry</a>
             </li>
         </ul>

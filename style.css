@@ -1,0 +1,57 @@
+/*
+Theme Name: Accounts
+Author: Sponago
+Description: Website Accounts
+Version: 1.0
+*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Noto_Sans', sans-serif;
+    /* font-size: 1.1vw; */
+}
+
+:root {
+    --text-main-color: #ffffff;
+}
+
+a {
+    text-decoration: none;
+    color: var(--text-main-color);
+}
+
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    width: 100%;
+    min-height: 100vh; 
+    background: url('images/header/fixed_bg.png') no-repeat center center/cover fixed;
+    color: var(--text-main-color);
+}   
+
+
+/********************************** FONTS *******************************************/
+/* LOGO FONT */
+@font-face {
+    font-family: 'Rock_Salt';
+    src: url('./assets/fonts/cursive/RockSalt-Regular.woff2') format('woff2'),
+        url('./assets/fonts/cursive/RockSalt-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+/* Main TEXT FONT */
+@font-face {
+    font-family: 'Noto_Sans';
+    src: url('./assets/fonts/cursive/NotoSans-Regular.woff2') format('woff2'),
+        url('./assets/fonts/cursive/NotoSans-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}

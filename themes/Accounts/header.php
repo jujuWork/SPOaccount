@@ -21,16 +21,13 @@
                 <a href="#feature">Features</a>
             </li>
             <li class="nav-item">
-                <a href="#office">Offices</a>
+                <a href="">Offices</a>
             </li>
             <li class="nav-item">
                 <a href="#about">About</a>
             </li>
             <li class="nav-item">
                 <a href="#recruit">Recruitment</a>
-            </li>
-            <li class="nav-item">
-                <a href="#about">About</a>
             </li>
             <li class="nav-item nav-last-item">
                 <a href="#inquire">Inquiry</a>

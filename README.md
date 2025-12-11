@@ -1,5 +1,7 @@
 【ルール】
 
+
+【HTML コーディング】
 1. HTMLをコーディングする際は、できるだけセマンティックなHTMLタグを使用してください。
 例：
 
@@ -32,3 +34,60 @@
 
 
 5. 大きい背景画像を読み込む際は、PNGやJPGではなく、.webp形式に変換して使用することをおすすめします。
+
+
+
+
+
+【CSS コーディング】
+
+1. ボックスを作る時は、ブラウザのレスポンシブを良くするために Flexbox か Grid を使ってください。
+
+2 .サイトをスタイリングする時は、できるだけシンプルな CSS か SCSS を使い、ファイル名も分かりやすく分けてください。
+
+        例：
+
+        header.css
+
+        style.css
+
+        top-page.css
+
+3. CSS を書くときは、新しいコンテナのスタイルを書く前に 1 行スペース を入れてください。
+
+      h1 {
+        color: white;
+      }
+
+      h2 {
+        color: blue;
+      }
+
+
+4. .css ファイルの中で SCSS っぽい書き方をしたい時は、ファイル名を変えずに SCSS を使えるよう案内しますので、先に サンチェス（私）に聞いてください。
+
+5. SCSS を使う場合は、下のようなネストの書き方を守ってください。
+
+      header {
+        nav {
+          color: white;
+        }
+
+        .city {
+          color: black;
+        }
+      }
+
+
+6. カラー管理は、短縮の変数を使うと便利です。
+
+      :root {
+        --primary-color: #fff;
+        --secondary-color: #000;
+        --hover-color: #fdfdfd;
+      }
+
+      header {
+        color: var(--primary-color);
+        background-color: var(--secondary-color);
+      }

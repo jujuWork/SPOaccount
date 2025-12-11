@@ -1,18 +1,19 @@
-#【ルール】#
+#【ルール
 
 
-##【HTML コーディング】##
+##【HTML コーディング
 1. HTMLをコーディングする際は、できるだけセマンティックなHTMLタグを使用してください。
-例：
+      ```
+      例：
 
-<header>
-<nav>
-<main>
-<aside>
-<article>
-<section>
-<footer>
-
+      <header>
+      <nav>
+      <main>
+      <aside>
+      <article>
+      <section>
+      <footer>
+      ```
 
 <div>タグだけで構成しないようご注意ください。
 
@@ -40,7 +41,7 @@
 
 
 
-##【CSS コーディング】##
+##【CSS コーディング
 
 1. ボックスを作る時は、ブラウザのレスポンシブを良くするために Flexbox か Grid を使ってください。
 

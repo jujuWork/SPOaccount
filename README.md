@@ -17,15 +17,11 @@
 
 <div>タグだけで構成しないようご注意ください。
 
-2. HTMLタグにクラス名を付ける際は、内容に関連した分かりやすい名称を設定してください。
-例：
-
-      ```
-      <header>
-        <div class="city">Tokyo</div>
-        <div class="prefecture">Kanto</div>
-      </header>
-      ```
+2. HTMLのクラス名については、こちらの命名ルールに従っていきましょう。
+   
+```
+-> https://qiita.com/takahirocook/items/01fd723b934e3b38cbbc
+```
 
 3. ファイル管理をしやすくするため、HTMLファイルは必ず**.php**で保存してください。
 

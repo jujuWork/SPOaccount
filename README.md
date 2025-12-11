@@ -13,25 +13,22 @@
             <article>
             <section>
             <footer>
-            ```
+           
 
-<div>タグだけで構成しないようご注意ください。
-
-2. HTMLのクラス名については、こちらの命名ルールに従っていきましょう。
+            <div>タグだけで構成しないようご注意ください。
+             ```
+3. HTMLのクラス名については、こちらの命名ルールに従っていきましょう。
    
-```
-https://qiita.com/takahirocook/items/01fd723b934e3b38cbbc
-```
-
+            ```
+            https://qiita.com/takahirocook/items/01fd723b934e3b38cbbc
+             ```
 3. ファイル管理をしやすくするため、HTMLファイルは必ず**.php**で保存してください。
-
 4. フォルダ内の画像をHTMLに読み込む際は、以下の書き方を使用してください。
 
-
-     ```
+```
      例：
          <img src="<?php echo htmlspecialchars(get_template_directory_uri() . '/assets/icons/call.png'); ?>" alt="telephone">
-     ```
+``` 
 
 
 6. 大きい背景画像を読み込む際は、PNGやJPGではなく、.webp形式に変換して使用することをおすすめします。
@@ -72,7 +69,7 @@ https://qiita.com/takahirocook/items/01fd723b934e3b38cbbc
 4. .css ファイルの中で SCSS っぽい書き方をしたい時は、ファイル名を変えずに SCSS を使えるよう案内しますので、先に サンチェス（私）に聞いてください。
 
 5. SCSS を使う場合は、下のようなネストの書き方を守ってください。
-
+ ```
        例：
       header {
         nav {
@@ -83,7 +80,7 @@ https://qiita.com/takahirocook/items/01fd723b934e3b38cbbc
           color: black;
         }
       }
-      
+ ```  
 
 
 6. カラー管理は、短縮の変数を使うと便利です。
@@ -100,4 +97,4 @@ https://qiita.com/takahirocook/items/01fd723b934e3b38cbbc
         color: var(--primary-color);
         background-color: var(--secondary-color);
       }
-      ```
+       ```

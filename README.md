@@ -30,7 +30,7 @@
 4. フォルダ内の画像をHTMLに読み込む際は、以下の書き方を使用してください。
 例：
 
-<img src="<?php echo htmlspecialchars(get_template_directory_uri() . '/assets/icons/call.png'); ?>" alt="telephone">
+  -> img src="<?php echo htmlspecialchars(get_template_directory_uri() . '/assets/icons/call.png'); ?>" alt="telephone"
 
 
 5. 大きい背景画像を読み込む際は、PNGやJPGではなく、.webp形式に変換して使用することをおすすめします。

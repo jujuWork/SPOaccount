@@ -22,7 +22,7 @@ function my_styles() {
         // TOP-PAGE STYLES
     wp_enqueue_style(
         'theme-top-page-style',
-        get_template_directory_uri() . '/assets/css/top-page.css'
+        get_template_directory_uri() . '/assets/css/a_gatta.css'
     );
 }
 add_action('wp_enqueue_scripts', 'my_styles');

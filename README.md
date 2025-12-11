@@ -1,18 +1,19 @@
-#【ルール】#
+#【ルール
 
 
-##【HTML コーディング】##
+##【HTML コーディング】
 1. HTMLをコーディングする際は、できるだけセマンティックなHTMLタグを使用してください。
-例：
-
-<header>
-<nav>
-<main>
-<aside>
-<article>
-<section>
-<footer>
-
+            ```
+            例：
+            
+            <header>
+            <nav>
+            <main>
+            <aside>
+            <article>
+            <section>
+            <footer>
+            ```
 
 <div>タグだけで構成しないようご注意ください。
 
@@ -29,25 +30,29 @@
 3. ファイル管理をしやすくするため、HTMLファイルは必ず**.php**で保存してください。
 
 4. フォルダ内の画像をHTMLに読み込む際は、以下の書き方を使用してください。
-例：
-
-     ``` <img src="<?php echo htmlspecialchars(get_template_directory_uri() . '/assets/icons/call.png'); ?>" alt="telephone"> ```
 
 
-5. 大きい背景画像を読み込む際は、PNGやJPGではなく、.webp形式に変換して使用することをおすすめします。
+     ```
+     例：
+         <img src="<?php echo htmlspecialchars(get_template_directory_uri() . '/assets/icons/call.png'); ?>" alt="telephone">
+     ```
+
+
+6. 大きい背景画像を読み込む際は、PNGやJPGではなく、.webp形式に変換して使用することをおすすめします。
 
 
 
 
 
-##【CSS コーディング】##
+##【CSS コーディング
 
 1. ボックスを作る時は、ブラウザのレスポンシブを良くするために Flexbox か Grid を使ってください。
 
 2 .サイトをスタイリングする時は、できるだけシンプルな CSS か SCSS を使い、ファイル名も分かりやすく分けてください。
 
-        例：
+       
       ```
+       例：
         header.css
 
         style.css
@@ -58,6 +63,7 @@
 3. CSS を書くときは、新しいコンテナのスタイルを書く前に 1 行スペース を入れてください。
 
       ```
+       例：
       h1 {
         color: white;
       }
@@ -71,7 +77,7 @@
 
 5. SCSS を使う場合は、下のようなネストの書き方を守ってください。
 
-      
+       例：
       header {
         nav {
           color: white;
@@ -87,6 +93,7 @@
 6. カラー管理は、短縮の変数を使うと便利です。
 
       ```
+       例：
       :root {
         --primary-color: #fff;
         --secondary-color: #000;

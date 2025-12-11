@@ -27,3 +27,8 @@ wp-content/upgrade/
 # LocalWP files
 *.sql
 *.sql.gz
+
+
+# READ ME
+
+README.md

@@ -1,0 +1,109 @@
+header {
+    position: relative;
+    padding: 0 10px;
+
+        .logo-container {
+            width:  100%;
+
+            h2 {
+                font-size: 8vw;
+                text-align: center;
+                font-family: 'Rock_Salt', sans-serif;
+                background: linear-gradient(
+                    135deg,
+                    #FFFFFF 0%,   /* Start with White */
+                    #1C0B40 25%,   /* Transition to Deep Navy/Indigo */
+                    #4C1456 50%,   /* Original Mid-point color */
+                    #B30E4D 75%,   /* Transition from Vibrant Magenta/Crimson */
+                    #FFFFFF 100%   /* End with White */
+                    );
+                background-size: 400% 400%;
+                background-clip: text;
+                color: transparent;
+                animation: animate 10s linear infinite;
+            }
+        }
+
+    nav {
+        width: 100%;
+        position: fixed;
+        top: 0;
+        font-size: 1rem;
+        z-index: 99999;
+
+
+        ul {
+            display: flex;
+            flex-wrap: wrap;
+            height: 100%;
+            cursor: pointer;
+            justify-content: space-around;
+        }
+
+        li:last-child {
+            width: 18vw;
+            border: none;
+            position: relative;
+            background-image: linear-gradient(to right, #B30E4D, #B30E4D);
+            background-size: 0% 100%;
+            background-repeat: no-repeat;
+            transition: background-size 0.3s ease;
+            border-bottom-left-radius: 5px;
+            border-bottom-right-radius: 5px;
+        }
+
+        li:last-child:hover {
+            background-color: transparent;
+            background-size: 100% 100%;
+
+        }
+
+
+        li {
+            list-style: none;
+            width: 10em;
+            height: 3em;
+            align-content: center;
+            text-align: center;
+            text-decoration: none;
+            padding-bottom: 5px;
+            position: relative;
+        }
+
+        li::after {
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 2px;
+            display: block;
+            margin-top: 5px;
+            left: 0;
+            bottom: 0;
+            background-color: #B30E4D;
+            transition: width 0.3s ease;
+        }
+
+        li:hover::after {
+            width: 100%;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+/************************************ KEY FRAMES ************************************/
+
+/* HEADER LOGO ANIMATION */
+@keyframes animate {
+    0% {
+        background-position: 0% 50%;
+    }
+    100% {
+        background-position: 100% 50%;
+    }
+}

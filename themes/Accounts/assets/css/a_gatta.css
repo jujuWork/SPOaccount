@@ -1,20 +1,17 @@
 main {
     width: 100%;
     height: 100vh;
-    border: 1px solid orange;
 
     .hero {
-        background: var(--main-background-color);
+        background: url('')center center/cover;
         width: 100%;
         height: 100%;
-        /* opacity: 0.3; */
-        z-index: -999999;
+        border: 1px solid red;
     }
-
+/* 
     .hero__head {
         width: 30rem;
         height: 40rem;
         background-color: aliceblue;
-        z-index: 1;
-    }
+    } */
 }

@@ -1,11 +1,11 @@
 <footer>
     <section class="main-container">
-        <div class="list-container one">
+        <div class="list-container">
             <div class="logo">
                 <h2>Sponago</h2>
             </div>
         </div>
-        <div class="list-container two">
+        <div class="list-container">
              <div class="list-item">
                 <ul>
                     <li class="list_title">スポNAGOの理念</li>
@@ -19,7 +19,7 @@
                     <li class="list_title">所在地</li>
                     <li>
                         <a href="#address">
-                            <p>〒450-0003/p>
+                            <p>〒450-0003</p>
                             <p>愛知県名古屋市中村区名駅南1丁目1-14</p>
                             <p>新納屋橋ビル5F</p>
                         </a>
@@ -46,12 +46,12 @@
                 </ul>
             </div>
         </div>
-        <div class="list-container three">
+        <div class="list-container">
             <div class="logo office-list">
                 <h2>事業所一覧</h2>
             </div>
         </div>
-        <div class="list-container four">
+        <div class="list-container">
             <div class="list-item">
                 <ul>
                     <li class="list_title">就労継続支援B型</li>
@@ -100,7 +100,7 @@
                 </ul>
             </div>
         </div>
-        <div class="list-container five">
+        <div class="list-container">
             <div class="list-item">
                 <ul>
                     <li class="list_title">生活共同支援</li>

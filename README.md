@@ -20,7 +20,7 @@
 2. HTMLのクラス名については、こちらの命名ルールに従っていきましょう。
    
 ```
--> ( https://qiita.com/takahirocook/items/01fd723b934e3b38cbbc )
+https://qiita.com/takahirocook/items/01fd723b934e3b38cbbc
 ```
 
 3. ファイル管理をしやすくするため、HTMLファイルは必ず**.php**で保存してください。

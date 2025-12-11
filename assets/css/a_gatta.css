@@ -1,17 +1,21 @@
 main {
     width: 100%;
     height: 100vh;
+    display: flex;
 
     .hero {
-        background: url('')center center/cover;
+        background: url('../../images/a_gatta/hero__top-bg.webp')center center/cover;
         width: 100%;
         height: 100%;
         border: 1px solid red;
+        z-index: -1;
+        position: relative;
     }
-/* 
+
     .hero__head {
         width: 30rem;
         height: 40rem;
-        background-color: aliceblue;
-    } */
+        background-color: rgba(0, 0, 0, 0.3);
+        align-items: center;
+    }
 }

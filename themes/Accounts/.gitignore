@@ -1,0 +1,34 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Node / Build tools
+node_modules/
+npm-debug.log
+yarn.lock
+dist/
+vendor/
+
+# Logs
+*.log
+
+# Environment / private keys
+.env
+
+# WordPress (don’t track WordPress core)
+wp-admin/
+wp-includes/
+
+# Uploads (large, auto-generated)
+wp-content/uploads/
+wp-content/cache/
+wp-content/upgrade/
+
+# LocalWP files
+*.sql
+*.sql.gz
+
+
+# READ ME
+
+README.md

@@ -1,5 +1,5 @@
 <main>
-    <div class="hero__container">
+    <section class="hero__container">
         <div class="hero__head">
             <div class="hero__head-top"></div>
             <div class="hero__head-items">
@@ -9,5 +9,9 @@
             </div>
             <button class="hero__head-contact">Contact Us</button>
         </div>
-    </div>
+    </section>
 </main>
+
+<article>
+    dwada
+</article>

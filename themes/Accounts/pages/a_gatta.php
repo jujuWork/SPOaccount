@@ -12,16 +12,30 @@
     </section>
 </main>
 
-<!-- <article>
-    <section>
-        <div class="service__container">
-            <h2>Company Service</h2>
-            <div class="service__container-menu">
-                <div class="service__container-items">1</div>
-                <div class="service__container-items">2</div>
-                <div class="service__container-items">3</div>
-                <div class="service__container-items">4</div>
+<article>
+    <div class="service__container">
+        <h2>Company Service</h2>
+        <div class="service__container-menu">
+            <div class="service__container-items">
+                <img src="<?php echo htmlspecialchars(get_template_directory_uri() . '/images/a_gatta/code.png') ?>" alt="code">
+                <h3>Web Development</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <span>More</span>
+            </div>
+            <div class="service__container-items">
+                <h3>Mobile Development</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <span>More</span>
+            </div>
+            <div class="service__container-items">
+                <h3>Designs</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <span>More</span>
+            </div>
+            <div class="service__container-items">
+                <h3>Professional Team</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
             </div>
         </div>
-    </section>
-</article> -->
+    </div>
+</article>

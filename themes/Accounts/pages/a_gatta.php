@@ -12,6 +12,16 @@
     </section>
 </main>
 
-<article>
-    dwada
-</article>
+<!-- <article>
+    <section>
+        <div class="service__container">
+            <h2>Company Service</h2>
+            <div class="service__container-menu">
+                <div class="service__container-items">1</div>
+                <div class="service__container-items">2</div>
+                <div class="service__container-items">3</div>
+                <div class="service__container-items">4</div>
+            </div>
+        </div>
+    </section>
+</article> -->

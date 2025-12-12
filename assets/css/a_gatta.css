@@ -1,12 +1,103 @@
 main {
-    width: 100%;
-    height: 100vh;
-    border: 1px solid orange;
+  width: 100%;
+  max-width: 3440px;
+  min-width: 300px;
+  height: 100vh;
+  background: url("../../images/a_gatta/hero__top-bg.webp") center center/cover
+    fixed;
+  flex-direction: row;
+  flex-wrap: wrap;
 
-    .hero {
-        background: var(--main-background-color);
-        width: 100%;
-        height: 100%;
-        opacity: 0.3;
+  .hero__container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    bottom: 0;
+  }
+
+  .hero__head {
+    width: 100%;
+    max-width: 500px;
+    height: 100%;
+    max-height: 500px;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 3rem 3rem;
+    position: relative;
+    border-radius: 10px;
+  }
+
+  .hero__head-top {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    background-image: var(--main-gradient-color);
+  }
+
+  .hero__head-items {
+    margin-top: 2em;
+  }
+
+  .hero__head-items h2 {
+    font-size: 3.5rem;
+    text-wrap: wrap;
+  }
+
+  & .hero__head-contact {
+    margin-top: 2rem;
+    width: 15rem;
+    height: 5rem;
+    background-image: var(--main-gradient-color);
+    color: var(--text-main-color);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1.5rem;
+  }
+}
+
+article {
+  width: 100%;
+  /* height: 100vh; */
+  background: var(--main-background-color) center center;
+  position: relative;
+  overflow: auto;
+
+  .service__container {
+    width: 100%;
+
+    h2 {
+      font-size: 3.5rem;
+      text-wrap: wrap;
+      text-align: center;
     }
+  }
+
+  .service__container-menu {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    gap: 20px;
+    width: 100%;
+    max-width: 1366px;
+    /* height: 100%; */
+    border: 1px solid red;
+
+    .service__container-items {
+      /* background: rgba(243, 239, 239, 0.3); */
+      width: calc(100% / 3);
+      text-wrap: wrap;
+
+      img {
+        width: 5rem;
+        fill: #b30e4df7;
+      }
+
+      h3 {
+        font-size: 2rem;
+      }
+    }
+  }
 }

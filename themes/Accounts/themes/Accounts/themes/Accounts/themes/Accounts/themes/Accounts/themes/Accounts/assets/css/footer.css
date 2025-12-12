@@ -1,0 +1,90 @@
+footer {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    position: relative;
+
+    .main-container {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0 auto;
+
+    }
+
+    .list-container {
+        display: flex;
+        justify-content: center;
+        position: relative;
+        flex-wrap: wrap;
+        
+
+        .list-item {
+            display: flex;
+            margin-bottom: 1.3rem;
+            margin-right: 1rem;
+            padding: 5px 5px;
+            background-image: linear-gradient(
+                135deg, 
+                #1C0B40FF 10%, 
+                #4C1456F5 60%, 
+                #B30E4DF7 80%
+                );
+            border-radius: 10px;
+            box-shadow: 3px 3px 0 0 rgba(179, 14, 77, 1);
+            flex: 1 0 200px;
+
+            ul {
+                list-style: none;
+            }
+
+            li > a {
+                list-style: none;
+                white-space: normal;
+            }
+
+            .list_title {
+                border-bottom: 2px solid #fff;
+                margin-bottom: 1rem;
+                padding-bottom: 0.5rem;
+            }
+        }
+
+        .logo {
+            margin-bottom: 1.2em;
+        }
+            
+        .logo > h2 {
+            font-size: 2.5vw;
+            text-align: center;
+            font-family: 'Rock_Salt';
+            background: linear-gradient(
+                135deg,
+                #FFFFFF 0%,   /* Start with White */
+                #1C0B40 25%,   /* Transition to Deep Navy/Indigo */
+                #4C1456 50%,   /* Original Mid-point color */
+                #B30E4D 75%,   /* Transition from Vibrant Magenta/Crimson */
+                #FFFFFF 100%   /* End with White */
+                );
+            background-size: 400% 400%;
+            background-clip: text;
+            color: transparent;
+            animation: animate 3s linear infinite;
+        }
+
+        .contact > p > span > img {
+            display: inline;
+            vertical-align: middle;
+        }
+    }
+
+    .list-container > .office-list {
+        font-size: 2.5vw;
+        align-content: center;
+    }
+
+    .font-blue {
+        color: #2854C5;
+    }
+}

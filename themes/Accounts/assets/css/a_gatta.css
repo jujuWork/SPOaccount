@@ -86,17 +86,21 @@ article {
     border: 1px solid red;
 
     .service__container-items {
-      /* background: rgba(243, 239, 239, 0.3); */
+      background: rgba(0, 0, 0, 0.3);
       width: calc(100% / 3);
       text-wrap: wrap;
+    }
 
-      img {
-        width: 5rem;
-        fill: #b30e4df7;
-      }
+    .service__container-items > img {
+      width: 100px;
+      color: white;
 
       h3 {
-        font-size: 2rem;
+        font-size: 3rem;
+      }
+
+      p {
+        font-size: 0.1rem;
       }
     }
   }

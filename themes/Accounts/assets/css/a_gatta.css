@@ -92,16 +92,7 @@ article {
     }
 
     .service__container-items > img {
-      width: 100px;
-      color: white;
-
-      h3 {
-        font-size: 3rem;
-      }
-
-      p {
-        font-size: 0.1rem;
-      }
+      width: 150px;
     }
   }
 }

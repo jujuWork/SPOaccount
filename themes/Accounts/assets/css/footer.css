@@ -58,11 +58,10 @@ footer {
       background: linear-gradient(
         135deg,
         #ffffff 0%,
-        /* Start with White */ #1c0b40 25%,
-        /* Transition to Deep Navy/Indigo */ #4c1456 50%,
-        /* Original Mid-point color */ #b30e4d 75%,
-        /* Transition from Vibrant Magenta/Crimson */ #ffffff 100%
-          /* End with White */
+        #1c0b40 25%,
+        #4c1456 50%,
+        #b30e4d 75%,
+        #ffffff 100%
       );
       background-size: 400% 400%;
       background-clip: text;

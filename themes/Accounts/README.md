@@ -128,12 +128,22 @@ https://qiita.com/takahirocook/items/01fd723b934e3b38cbbc
 
 ```
 例:
+  /* LOGO FONT */
   @font-face {
-  font-family: "Rock_Salt";
-  src: url("./assets/fonts/cursive/RockSalt-Regular.woff2") format("woff2"),
-    url("./assets/fonts/cursive/RockSalt-Regular.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
+    font-family: "Rock_Salt";
+    src: url("./assets/fonts/cursive/RockSalt-Regular.woff2") format("woff2"),
+      url("./assets/fonts/cursive/RockSalt-Regular.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+  /* Main TEXT FONT */
+  @font-face {
+    font-family: "Noto_Sans";
+    src: url("./assets/fonts/cursive/NotoSans-Regular.woff2") format("woff2"),
+      url("./assets/fonts/cursive/NotoSans-Regular.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
   }
 ```

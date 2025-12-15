@@ -138,7 +138,3 @@ https://qiita.com/takahirocook/items/01fd723b934e3b38cbbc
   font-display: swap;
   }
 ```
-
-```
-
-```

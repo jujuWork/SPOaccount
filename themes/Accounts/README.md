@@ -119,3 +119,17 @@
   background-color: var(--secondary-color);
   }
   ```
+
+7. フォントのスタイリングは、まず style.css に定義して、必要なときに呼び出すようにしましょう。その前に、フォントをダウンロードして fonts フォルダに入れておく必要があります。
+
+```
+  例:
+  @font-face {
+    font-family: "Rock_Salt";
+    src: url("./assets/fonts/cursive/RockSalt-Regular.woff2") format("woff2"),
+      url("./assets/fonts/cursive/RockSalt-Regular.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+```

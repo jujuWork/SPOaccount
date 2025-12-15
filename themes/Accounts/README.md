@@ -4,56 +4,58 @@
 
 1. HTML をコーディングする際は、できるだけセマンティックな HTML タグを使用してください,<div>タグだけで構成しないようご注意ください。
 
-- ```
-  例：<header>
-  <nav>
-  <main>
-  <aside>
-  <article>
-  <section>
-  <footer>
-  ```
+```
+例：<header>
+<nav>
+<main>
+<aside>
+<article>
+<section>
+<footer>
+```
 
 2. HTML のクラス名については、こちらの命名ルールに従っていきましょう。
 
-- ```
-   https://qiita.com/takahirocook/items/01fd723b934e3b38cbbc
-  ```
-  例：
-- ```<header class="header">
-      <div class="header__logo-container">
-          <a href="#home" class="header__logo-link"><h2>Sponago</h2></a>
-      </div>
-      <nav class="header__nav">
-          <ul class="header__nav-list">
-              <li class="header__nav-item">
-                  <a href="#feature" class="header__nav-link">Features</a>
-              </li>
-              <li class="header__nav-item">
-                  <a href="" class="header__nav-link">Offices</a>
-              </li>
-              <li class="header__nav-item">
-                  <a href="#about" class="header__nav-link">About</a>
-              </li>
-              <li class="header__nav-item">
-                  <a href="#recruit" class="header__nav-link">Recruitment</a>
-              </li>
-              <li class="header__nav-item header__nav-item--last">
-                  <a href="#inquire" class="header__nav-link">Inquiry</a>
-              </li>
-          </ul>
-      </nav>
-  </header>
-  ```
+```
+https://qiita.com/takahirocook/items/01fd723b934e3b38cbbc
+
+例：
+
+```
+
+<header class="header">
+    <div class="header__logo-container">
+        <a href="#home" class="header__logo-link"><h2>Sponago</h2></a>
+    </div>
+    <nav class="header__nav">
+        <ul class="header__nav-list">
+            <li class="header__nav-item">
+                <a href="#feature" class="header__nav-link">Features</a>
+            </li>
+            <li class="header__nav-item">
+                <a href="" class="header__nav-link">Offices</a>
+            </li>
+            <li class="header__nav-item">
+                <a href="#about" class="header__nav-link">About</a>
+            </li>
+            <li class="header__nav-item">
+                <a href="#recruit" class="header__nav-link">Recruitment</a>
+            </li>
+            <li class="header__nav-item header__nav-item--last">
+                <a href="#inquire" class="header__nav-link">Inquiry</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+```
 
 3. ファイル管理をしやすくするため、HTML ファイルは必ず[ **.php** ]で保存してください。
 4. フォルダ内の画像を HTML に読み込む際は、以下の書き方を使用してください。
 
-- ```
-  例：
-
-  <img src="<?php echo htmlspecialchars(get_template_directory_uri() . '/assets/icons/call.png'); ?>" alt="telephone">
-  ```
+```
+例：
+<img src="<?php echo htmlspecialchars(get_template_directory_uri() . '/assets/icons/call.png'); ?>" alt="telephone">
+```
 
 5. 大きい背景画像を読み込む際は、PNG や JPG ではなく、.webp 形式に変換して使用することをおすすめします。
 
@@ -65,33 +67,34 @@
 
 2 .サイトをスタイリングする時は、できるだけシンプルな CSS か SCSS を使い、ファイル名も分かりやすく分けてください。
 
-- ```
+```
   例：
-
-  header.css
-  style.css
-  top-page.css
-  ```
+    header.css
+    style.css
+    top-page.css
+```
 
 3. CSS を書くときは、新しいコンテナのスタイルを書く前に 1 行スペース を入れてください。
 
-- ```
+```
   例：
-
-  h1 {
+    h1 {
     color: white;
-  }
-  -------
-  h2 {
+    }
+
+---
+
+    h2 {
     color: blue;
-  }
-  ```
+    }
+
+```
 
 4. .css ファイルの中で SCSS っぽい書き方をしたい時は、ファイル名を変えずに SCSS を使えるよう案内しますので、先に [ サンチェス（私）] に聞いてください。
 
 5. SCSS を使う場合は、下のようなネストの書き方を守ってください。
 
-- ```
+```
   例：
   header {
       nav {
@@ -102,11 +105,11 @@
         color: black;
       }
   }
-  ```
+```
 
 6. カラー管理は、短縮の変数を使うと便利です。
 
-- ```
+```
   例：
   :root {
   --primary-color: #fff;
@@ -114,22 +117,28 @@
   --hover-color: #fdfdfd;
   }
 
+
   header {
   color: var(--primary-color);
   background-color: var(--secondary-color);
   }
-  ```
+
+```
 
 7. フォントのスタイリングは、まず style.css に定義して、必要なときに呼び出すようにしましょう。その前に、フォントをダウンロードして fonts フォルダに入れておく必要があります。
 
 ```
-  例:
+例:
   @font-face {
-    font-family: "Rock_Salt";
-    src: url("./assets/fonts/cursive/RockSalt-Regular.woff2") format("woff2"),
-      url("./assets/fonts/cursive/RockSalt-Regular.woff") format("woff");
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
+  font-family: "Rock_Salt";
+  src: url("./assets/fonts/cursive/RockSalt-Regular.woff2") format("woff2"),
+    url("./assets/fonts/cursive/RockSalt-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
   }
+```
+
+```
+
 ```

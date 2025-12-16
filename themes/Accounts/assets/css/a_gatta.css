@@ -45,10 +45,10 @@ main {
     text-wrap: wrap;
   }
 
-  & .hero__head-contact {
+  .hero__head-contact {
     margin-top: 2rem;
-    width: 15rem;
-    height: 5rem;
+    width: 200px;
+    height: 100px;
     background-image: var(--main-gradient-color);
     color: var(--text-main-color);
     border: none;
@@ -59,7 +59,7 @@ main {
 }
 
 article {
-  width: 100%;
+  width: min-content(1920px, 90%);
   height: 100%;
   background: var(--main-background-color) center center;
   position: relative;
@@ -78,20 +78,21 @@ article {
   .service__container-menu {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     margin: 0 auto;
     gap: 7em;
-    width: 100%;
-    max-width: 1366px;
-    /* height: 100%; */
+    width: min-content(1366px, 90%);
     position: relative;
     margin-top: 5em;
+    flex-direction: row;
 
     .service__container-items {
       background: rgba(0, 0, 0, 0.3);
-      width: calc(100% / 3);
-      text-wrap: wrap;
+      width: 400px;
       border-radius: 10px;
       padding: 10px 10px;
+      flex-wrap: wrap;
+      position: relative;
     }
 
     .service__container-items > img {
@@ -110,8 +111,8 @@ article {
       margin-top: 1rem;
     }
 
-    .service__container-items > p > a {
-      animation: animate 10s linear infinite;
+    .service__container-more > a {
+      border-bottom: 2px solid red;
     }
   }
 }
